@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+input{
+    width: fit-content;
+    height: fit-content;
+    width: 900px;
+    height: 30px;
+}
+#loki{
+    width: fit-content;
+    height: fit-content;
+    width: 900px;
+    height: 150px;
+}
+.good{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 100px;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    right: 100px;
+}
+#items{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+#non{
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+li{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 20px;
+}
+#non:hover{
+    color: rgb(2, 60, 252);
+}
+.opp{
+    align-items: center;
+    text-align: center;
+    background-color:rgb(34, 2, 38) ;
+    color: white;
+    height: 60px;
+}
+#sst{
+    position: relative;
+    top: 10px;
+}
+.dd{
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+}
+.boom{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}

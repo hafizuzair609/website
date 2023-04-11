@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+}
+#items{
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    border: 20px;
+}
+#items:hover{
+    transition: 1s;
+    transform: translateY(-5px) scale(1.005);
+    box-shadow: 12px 16px 12px black;
+}
+.fa-solid:hover{
+    color: red;
+    transition: .5s;
+}
+
+.side{
+    display: flex; 
+    background-color: rgb(34, 2, 38);
+    color: white;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    
+}
+#num{
+    padding-left: 20px;
+    position: relative;
+    left: 250px;
+    top: 40px;
+    font-size: 19px;
+}
+#jojo{
+    text-decoration: none;
+    color: white;
+}
+#jojo:hover{
+    color: rgb(2, 60, 252);
+}
+h1:hover{
+    color: red;
+}
+.boom{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}

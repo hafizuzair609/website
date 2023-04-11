@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.loop{
+    display: flex;
+}
+.cards{
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 150px;
+}
+#co{
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+#co:hover{
+    text-decoration: underline;
+}
+.house{
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.opps{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(34, 2, 38);
+    color: white;
+    height: 120px;
+}
+#sst{
+    position: relative;
+    top: 10px;
+}
+.sst{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.ssd{
+    align-items: center;
+    position: relative;
+    left: 555px;
+}
+.opp{
+    align-items: center;
+    text-align: center;
+    background-color:rgb(34, 2, 38) ;
+    color: white;
+    height: 60px;
+}
+.dd{
+    position: relative;
+    left: 260px;
+    bottom: 30px;
+}
+#jug{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.boom{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+@media (max-width: 430px){
+    .loop{
+        display: block;
+    }
+    .cards{
+        display: block;
+        margin-left: -120px;
+    }
+    #footer{
+        display: block;
+        background-color:rgb(34, 2, 38) ;
+    }
+    .ssd{
+        position: relative;
+        left: 80px;
+    }
+}

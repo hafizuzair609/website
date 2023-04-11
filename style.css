@@ -1,0 +1,127 @@
+
+#container{
+    display: flex;
+    flex-direction: row;
+   
+    background-color: rgb(34, 2, 38);
+    height: 65px;
+    color: white;
+    
+   
+   
+}
+#items{
+    
+    position: relative;
+    left: 500px;
+    padding-left: 40px;
+    padding-top: 25px;
+    
+}
+.web{
+   
+    position: absolute;
+    left: 1300px;
+    
+    
+}
+
+.mind{
+    
+    position: absolute;
+    bottom: 13px;
+    right: 20px;
+} 
+.mind2{
+    position: absolute;
+    bottom: 663px;
+    left: 1290px;
+
+}
+
+#pp{
+   
+    color: white;
+    width: 160px;
+    position: absolute;
+    right: 380px;
+    bottom: 9px;
+}
+.koko{
+    
+    width: 60%;
+    position: relative;
+    left: 270px;
+    top: 70px;
+}
+/* #circle{
+
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+} */
+#kk{
+   
+    position: relative;
+    left: 100px;
+    bottom: 90px;
+  
+}
+#kk2{
+    text-decoration: none;
+}
+#kk2:hover{
+    text-decoration: underline;
+}
+/* #circle2{
+    position: relative;
+    left: 480px;
+    top: -180px;
+
+}
+#circle3{
+    position: relative;
+    left: 880px;
+    top: -380px;
+} */
+#span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -100px;
+}
+#circle{
+    margin: 50px;
+}
+.side{
+    display: flex; 
+    background-color: rgb(34, 2, 38);
+    color: white;
+    width: 1100px;
+    height: 350px;
+    position: relative;
+    top: 50px;
+    left: 140px;
+    
+}
+#num{
+    padding-left: 20px;
+    position: relative;
+    left: 250px;
+    top: 40px;
+    font-size: 19px;
+}
+#jojo{
+    text-decoration: none;
+    color: white;
+}
+#jojo:hover{
+    color: rgb(2, 60, 252);
+}
+.boom{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
